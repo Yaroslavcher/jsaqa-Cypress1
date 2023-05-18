@@ -1,0 +1,19 @@
+{
+  "name": "7-06-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./e2e/login.cy.js",
+    "chrome": "npx cypress run --browser chrome",
+    "firefox": "npx cypress run --browser firefox",
+    "chrome:head": "npx cypress run --browser chrome --headed",
+    "firefox:head": "npx cypress run --browser firefox --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.4.1"
+  }
+}
